@@ -1,0 +1,16 @@
+1. LoinForm.js :
+<TextInput>
+  onChangeText={text => this.setState({ text: text })}//key value pair,callback
+2.1) <TextInput> or <Input> for reusable component
+Email(label which is not value) - (placeholder)
+-> fontSize make smaller such as 13, or height in containerStyle 50.
+ 2) In <TextInput> Input.js(child), secureTextEntry={true} ->
+   secureTextEntry, same result.
+ 3) In LoginForm.js(parent),
+
+ In Spinner.js, size={size || 'large'} // if size is small-> small
+ if size is not exist-> false, then 'large'
+
+ 3. In app.js: not signed in -> show Log In form,
+    singed in show Log out form
+    -> auth has stopped: => not shown page !
