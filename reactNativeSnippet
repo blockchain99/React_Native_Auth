@@ -1,0 +1,100 @@
+react-native-snippets
+class -- rnc
+const -- rnp
+
+*****************************************************************************************
+react-native-snippets-horse 2.0.0
+-----------------------------------------------------------------------------------------
+Snippet	                            Tab Trigger	            Description
+-----------------------------------------------------------------------------------------
+React Native Create Class	    rncc	Scaffolds a full react-native component class.
+React Native Create Stateless Function	rnstf	Scaffolds a stateless function.
+this.setState()	        tss
+Create StyleSheet	css	Scaffolds a StyleSheet-only module.
+StyleSheet.create()	ssc	Shortcut for creating a StyleSheet inline.
+React.PropTypes.	rpt
+export default	        ed
+==========================================================================================
+Lifecycle Methods
+---------------------------------------------------------------------------
+Snippet	                       Tab Trigger
+----------------------------------------------------------------------------
+constructor()	                 constructor()
+componentWillMount()	         cwm
+componentDidMount()	         cdm
+componentWillUnMount()	         cwum
+componentDidUnMount()	         cdum
+componentWillUpdate()	         cwud
+componentDidUpdate()	         cdud
+componentWillReceiveProps()	 cwrp
+shouldComponentUpdate()	         scud
+static propTypes = {}	         propTypes
+static defaultProps = {}	 defaultProps
+flex: 1	                         f1
+alignItems: 'center'	         ai
+justifyContent: 'center'	 jc
+==========================================================================================
+Components
+-----------------------------------------------------------------------
+Snippet	                         Tab Trigger
+----------------------------------------------------------------------
+ActivityIndicatorIOS	rnActivityIndicatorIOS
+DatePickerIOS	        rnDatePickerIOS
+Image	                rnImage
+ListView	        rnListView
+Navigator	        rnNavigator
+NavigatorIOS	        rnNavigatorIOS
+PickerIOS	        rnPickerIOS
+Text	                rnText
+TouchableHighlight	rnTouchableHighlight
+View	                rnView
+----------------------------------------------------------------------------------------
+****************************************************************************************
+react-native-components
+
+API's
+------
+Firebase	raFirebase
+==================================
+Components
+-----------
+Button	        rcButton
+Image	        rcImage
+ListView	rcListView
+ScrollView	rcScrollView
+Text	        rcText
+TextInput	rcTextInput
+View	        rcView
+---------------------------
+Functions
+----------
+Constructor	rfConstructor
+Render	        rfRender
+Register	rfRegisterComponent
+------------------------------------
+State
+----------
+this.state={myValue}	   rsThisState
+this.setState({myValue})   rsSetState
+--------------------------------------
+Props
+-------------
+this.props.myProp	rpThisProps
+--------------------------------------
+Imports
+-----------
+React	          riReact
+React Native	  riReactNative
+Firebase	  riFirebase
+--------------------------------
+Aux of Components
+------------------
+ListViewDataSource	rxListViewDataSource
+SeparatorStyle	        rxSeparatorStyle
+--------------------------------------------
+Styles
+-----------------------
+style={styles.myStyle}	rtStyleAsign
+Style Create	        rtStyleCreate
+StyleSheet Create	rtStyleSheetCreate
+
